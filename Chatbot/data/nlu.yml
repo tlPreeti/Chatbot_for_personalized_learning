@@ -1,0 +1,26 @@
+version: "3.1"
+nlu:
+  - intent: ask_question
+    examples: |
+      - What is machine learning?(text)
+      - Tell me about Python.(text)
+      - How does AI(text) work?
+      - Explain deep learning.(text)
+
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - Goodbye
+      - See you later
+
+  - intent: thanks
+    examples: |
+      - Thank you
+      - Thanks
+      - Appreciate it

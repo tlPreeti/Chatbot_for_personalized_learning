@@ -1,0 +1,22 @@
+version: "3.1"
+stories:
+  - story: greet and ask question
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_question
+      - action: action_provide_answer
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: thank user
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+  - story: answer question
+    steps:
+    - intent: ask_question  # Ensure the intent matches the user's input
+    - action: action_provide_answer

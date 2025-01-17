@@ -1,0 +1,30 @@
+version: "3.1"
+intents:
+  - ask_question
+  - greet
+  - goodbye
+  - thanks
+
+entities:
+  - text
+slots:
+  topic:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: topic
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_thanks:
+    - text: "You're welcome!"
+
+
+
+actions:
+  - action_provide_answer
