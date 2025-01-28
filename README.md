@@ -1,8 +1,8 @@
-Chatbot for Personalized Learning
+#Chatbot for Personalized Learning
 
 This repository contains the source code and configuration files for a Rasa-based chatbot designed for personalized learning experiences. The chatbot uses natural language understanding (NLU) and dialogue management to engage users and provide customized educational content.
 
-Project Structure
+#Project Structure
 
 actions/: Contains custom Python actions to extend the chatbot's functionality.
 
