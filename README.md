@@ -96,6 +96,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to customize this README further to include any specific details about your chatbot or organization!
+
 
 
